@@ -1,0 +1,30 @@
+{
+  "name": "openai-compatible-endpoint-auditor",
+  "version": "0.1.0",
+  "description": "A small CLI for auditing OpenAI-compatible API base URLs, /models responses, and chat completions smoke tests without committing secrets.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaozehan0424-design/openai-compatible-endpoint-auditor.git"
+  },
+  "keywords": [
+    "openai",
+    "api-checker",
+    "models",
+    "endpoint-audit",
+    "cli"
+  ],
+  "type": "commonjs",
+  "bin": {
+    "endpoint-auditor": "bin/endpoint-auditor.cjs"
+  },
+  "scripts": {
+    "check": "npm run check:syntax && npm run check:public && npm run test:mock",
+    "check:syntax": "node scripts/check-syntax.cjs",
+    "check:public": "node scripts/check-public-repo.cjs",
+    "test:mock": "node scripts/mock-smoke-test.cjs"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

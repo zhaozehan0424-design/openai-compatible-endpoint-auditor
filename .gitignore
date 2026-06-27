@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+outputs/
+work/
+*.log
+*.jsonl
+*.tmp
+*.zip
+.DS_Store
