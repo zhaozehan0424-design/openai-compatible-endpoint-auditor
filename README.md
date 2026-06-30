@@ -1,4 +1,7 @@
 # OpenAI-Compatible Endpoint Auditor
+[![CI](https://github.com/zhaozehan0424-design/openai-compatible-endpoint-auditor/actions/workflows/ci.yml/badge.svg)](https://github.com/zhaozehan0424-design/openai-compatible-endpoint-auditor/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[Repository status](./REPOSITORY_STATUS.md) records the latest maintenance checks and release-readiness notes.
 
 A small CLI for checking OpenAI-compatible API base URLs without committing secrets.
 

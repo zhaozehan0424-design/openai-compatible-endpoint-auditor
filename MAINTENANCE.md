@@ -22,3 +22,12 @@ This repository is maintained as a small compatibility and diagnostics CLI.
 - Confirm `.env`, `endpoints.local.json`, results, logs, and zip files are not tracked.
 - Keep examples synthetic and free of real API keys.
 - Document meaningful CLI behavior changes in `CHANGELOG.md`.
+
+## 2026-06-30 - Cross-repository maintenance audit
+
+- Added `REPOSITORY_STATUS.md` as a quick maintainer/readiness dashboard.
+- Re-ran verification checks:
+- `npm run check -> syntax_ok=4, public_repo_ok=true, mock_smoke_ok=true`
+- Confirmed README, changelog, security, contribution, issue-template, PR-template, license, and CI files are present.
+- Confirmed public documentation does not require committing private keys or local runtime secrets.
+

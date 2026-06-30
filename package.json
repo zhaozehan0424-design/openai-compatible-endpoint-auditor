@@ -1,6 +1,6 @@
 {
   "name": "openai-compatible-endpoint-auditor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small CLI for auditing OpenAI-compatible API base URLs, /models responses, and chat completions smoke tests without committing secrets.",
   "license": "MIT",
   "repository": {

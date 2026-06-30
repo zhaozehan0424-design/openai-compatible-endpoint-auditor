@@ -6,6 +6,7 @@ const requiredFiles = [
   "README.md",
   "CHANGELOG.md",
   "MAINTENANCE.md",
+  "REPOSITORY_STATUS.md",
   "SECURITY.md",
   "CONTRIBUTING.md",
   "LICENSE",

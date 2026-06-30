@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.1 - 2026-06-30
+
+Cross-repository maintenance audit.
+
+- Added `REPOSITORY_STATUS.md` with current health, verification commands, and next maintenance steps.
+- Added README CI/license badges and a status link for faster repository scanning.
+- Re-ran the repository verification checks and recorded the results.
+- Kept public maintenance, security, and contribution files aligned across the GitHub portfolio.
+
 ## v0.1.0 - 2026-06-27
 
 Initial public release.
